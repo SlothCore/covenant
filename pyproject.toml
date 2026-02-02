@@ -1,0 +1,15 @@
+[project]
+name = "covenant-mcp"
+version = "0.1.0"
+description = "Ex-ante bias governance layer for LLM decisions"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
