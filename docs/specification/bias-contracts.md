@@ -6,6 +6,11 @@ A Bias Contract is a **first-class, ex-ante artifact** that declares under what 
 
 Bias Contracts exist to eliminate ambiguity about intent, responsibility, and permissible bias _before_ execution.
 
+> **Audience note:**  
+> This document is the normative specification of Bias Contracts.  
+> For conceptual background, see `docs/concepts/`.  
+> For regulatory and compliance artifacts, see `docs/governance/`.
+
 ---
 
 ## 1. Purpose of a Bias Contract
@@ -193,3 +198,9 @@ They guarantee explicit, enforceable intent.
 # 8. Summary
 
 Bias Contracts make bias explicit, enforceable, and auditable.
+
+## Related Governance Materials
+
+- Regulatory FAQ: `../governance/regulatory-faq.md`
+- Due Diligence Checklist: `../governance/due-diligence-checklist.md`
+- Vendor Questionnaire: `../governance/vendor-questionnaire.md`
