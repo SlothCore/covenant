@@ -2,7 +2,7 @@
 
 ## Why AI failures are usually failures of intent, not intelligence
 
-Modern AI failures are rarely caused by models doing something *unexpected*.
+Modern AI failures are rarely caused by models doing something _unexpected_.
 
 They are caused by organizations refusing to be explicit about what they were willing to allow.
 
@@ -34,7 +34,7 @@ flowchart LR
 
 Governance, if it exists at all, happens **after** the decision is already made.
 
-If intent is never declared *before* execution, it cannot be enforced *after* harm.
+If intent is never declared _before_ execution, it cannot be enforced _after_ harm.
 
 ---
 
@@ -64,18 +64,19 @@ Explanation without prior commitment is just justification.
 
 Governance must happen **before** a decision exists.
 
-| Question | Timing |
-|--------|-------|
-| Is this output acceptable? | Post-hoc |
-| Was this decision allowed to exist? | Ex-ante |
+| Question                            | Timing   |
+| ----------------------------------- | -------- |
+| Is this output acceptable?          | Post-hoc |
+| Was this decision allowed to exist? | Ex-ante  |
 
 ---
 
 ## Introducing Bias Contracts
 
-A **Bias Contract** is an explicit, versioned declaration of what an automated system is allowed to consider, ignore, or refuse *before* it makes a decision.
+A **Bias Contract** is an explicit, versioned declaration of what an automated system is allowed to consider, ignore, or refuse _before_ it makes a decision.
 
 Bias Contracts are:
+
 - Ex-ante
 - Explicit
 - Immutable once active
@@ -124,7 +125,7 @@ It is merely optimized.
 ## Auditability is not logging
 
 Logging explains what happened.  
-Auditability explains *why it was allowed*.
+Auditability explains _why it was allowed_.
 
 Bias Contracts produce decision artifacts, not logs.
 
@@ -155,3 +156,5 @@ They force explicit responsibility.
 Organizations already encode bias implicitly.
 
 The question is whether we are willing to be explicit—and accountable—for the bias we allow.
+
+Medium article [link](https://medium.com/@slothcore/bias-contracts-governance-for-llm-decisions-c991a0b767f8)
