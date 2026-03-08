@@ -44,7 +44,7 @@ These explain the ideas and motivation behind Covenant.
 Start with:
 
 1. `specification/bias-contracts.md`
-2. Source code in `/src`
+2. Source code in `/poc/src`
 
 These define the enforceable behavior of the system.
 

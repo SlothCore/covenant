@@ -12,6 +12,7 @@ Any implementation that violates them is not Covenant.
 **Covenant** is an ex-ante bias governance layer that enforces explicit decision contracts around LLM outputs.
 
 Covenant sits between applications and language models to ensure that:
+
 - bias is declared **before** generation,
 - forbidden considerations are structurally excluded,
 - refusals are valid outcomes,
@@ -24,20 +25,20 @@ It makes bias **intentional, bounded, and accountable**.
 
 ## What Covenant Is
 
-- A **decision governor** for LLM-based systems  
-- A **bias contract enforcement layer**  
-- A **refusal-capable compliance primitive**  
+- A **decision governor** for LLM-based systems
+- A **bias contract enforcement layer**
+- A **refusal-capable compliance primitive**
 - A bridge between **policy and execution**
 
 ---
 
 ## What Covenant Is Not
 
-- An AI model  
-- A fairness optimizer  
-- A moderation API  
-- A prompt-engineering framework  
-- An analytics or monitoring dashboard  
+- An AI model
+- A fairness optimizer
+- A moderation API
+- A prompt-engineering framework
+- An analytics or monitoring dashboard
 
 Covenant does not generate text.  
 It governs whether text is allowed to be generated — and whether it is allowed to stand.
@@ -88,14 +89,15 @@ These principles define Covenant. They are not configurable.
 
 Covenant exists to prevent responsibility diffusion.
 
-| Layer        | Responsibility |
-|-------------|----------------|
-| Application | User experience, intent capture |
+| Layer        | Responsibility                               |
+| ------------ | -------------------------------------------- |
+| Application  | User experience, intent capture              |
 | **Covenant** | Decision validity, bias enforcement, refusal |
-| LLM         | Text generation only |
-| Organization | Defining what it is willing to commit to |
+| LLM          | Text generation only                         |
+| Organization | Defining what it is willing to commit to     |
 
-Covenant eliminates the excuse:  
+Covenant eliminates the excuse:
+
 > “The model decided.”
 
 ---
@@ -107,6 +109,7 @@ Covenant eliminates the excuse:
 > **Hiring / Candidate Evaluation**
 
 This domain was chosen because:
+
 - bias risk is well understood,
 - legal constraints are explicit,
 - and the cost of ambiguity is high.
@@ -120,11 +123,13 @@ Other domains are explicitly **out of scope** for the MVP.
 LLMs are being deployed faster than governance structures can adapt.
 
 Current controls rely on:
+
 - prompt instructions,
 - probabilistic moderation,
 - and post-hoc explanations.
 
 Regulators, auditors, and internal risk teams are increasingly asking for:
+
 > proof of intent **at the time of decision**, not after incidents occur.
 
 Covenant exists to fill the gap between policy and execution by making bias explicit **before** generation.
@@ -135,11 +140,11 @@ Covenant exists to fill the gap between policy and execution by making bias expl
 
 Covenant explicitly refuses to:
 
-- Offer a “best effort” or “neutral” mode  
-- Optimize throughput at the expense of legitimacy  
-- Infer protected attributes  
-- Automatically rewrite or “fix” prompts  
-- Learn from user behavior to adjust bias  
+- Offer a “best effort” or “neutral” mode
+- Optimize throughput at the expense of legitimacy
+- Infer protected attributes
+- Automatically rewrite or “fix” prompts
+- Learn from user behavior to adjust bias
 
 Constraint is a feature, not a limitation.
 
@@ -149,10 +154,10 @@ Constraint is a feature, not a limitation.
 
 Covenant is designed to be:
 
-- Model-agnostic  
-- Deterministic  
-- Auditable  
-- Refusal-capable  
+- Model-agnostic
+- Deterministic
+- Auditable
+- Refusal-capable
 
 The MVP prioritizes clarity and legitimacy over scale or convenience.
 
